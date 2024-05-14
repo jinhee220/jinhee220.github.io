@@ -37,7 +37,7 @@
 .aka {
   display: flex;
   align-items: flex-end;
-  margin: 150px 10px 5px 10px;
+  margin: 5px 10px 5px 10px;
   font-weight: 400;
   font-size: 3rem;
   padding: 10px 7px 10px 7px;
