@@ -3,8 +3,10 @@ import vue from "@vitejs/plugin-vue";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "https://github.com/jinhee220/jinhee220.github.io/",
   plugins: [vue()],
+  build: {
+    outDir: "docs",
+  },
 });
 
 // This is used for deploying to a project
