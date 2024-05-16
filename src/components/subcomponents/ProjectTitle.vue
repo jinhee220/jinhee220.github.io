@@ -1,7 +1,7 @@
 <template>
-  <div class="title">
+  <button class="title">
     <p>{{ project.title }}</p>
-  </div>
+  </button>
 </template>
 
 <script>

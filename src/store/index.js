@@ -7,7 +7,7 @@ export function createStore() {
         {
           id: 1,
           title: "Vending Machine",
-          image: "",
+          image: "src/assets/VendingMachine.jpg",
           liveLink: "",
           githubLink: "",
           mainStacks: [],
