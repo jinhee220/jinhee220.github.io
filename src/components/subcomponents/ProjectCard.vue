@@ -17,7 +17,7 @@ export default {
 
   methods: {
     getImageUrl(path) {
-      return new URL(`${path}`).href;
+      return `${path}`;
     },
   },
 };
