@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     <img
-      v-bind:src="project.image"
+      v-bind:src="getImageUrl(project.image)"
       v-bind:alt="project.title"
       v-show="project.selected"
     />
@@ -10,8 +10,16 @@
 </template>
 
 <script>
+import VendingMachine from "../../assets/VendingMachine.jpg";
+
 export default {
   props: ["project"],
+
+  methods: {
+    getImageUrl(path) {
+      return new URL(`${path}`, import.meta.url).href;
+    },
+  },
 };
 </script>
 
