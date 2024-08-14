@@ -10,8 +10,8 @@ export function createStore() {
           image: "src/assets/VendingMachine.jpg",
           liveLink: "",
           githubLink: "",
-          mainStacks: [],
-          selected: false,
+          mainStacks: ["Java"],
+          selected: true,
         },
         {
           id: 2,

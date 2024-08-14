@@ -1,6 +1,10 @@
 <template>
   <div class="card">
-    <img v-bind:src="project.image" v-bind:alt="project.title" />
+    <img
+      v-bind:src="project.image"
+      v-bind:alt="project.title"
+      v-show="project.selected"
+    />
     <div class="desc"></div>
   </div>
 </template>

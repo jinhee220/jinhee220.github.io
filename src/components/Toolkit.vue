@@ -72,7 +72,7 @@
 #toolkit {
   background-color: rgb(255, 255, 255);
   border-radius: 40px;
-  border: 10px rgb(252, 130, 130);
+  border: 10px rgb(187, 187, 250);
   border-style: dashed none dashed none;
 }
 

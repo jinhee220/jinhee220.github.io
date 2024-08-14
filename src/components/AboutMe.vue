@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <div id="name">
       <h1 class="joanne">Joanne Lee</h1>
       <p class="aka">aka</p>
@@ -18,16 +18,16 @@
 
       <img class="prof-pic" src="../assets/logo.png" alt="logo" />
     </div>
-
-    <div>
-      <span class="material-symbols-outlined"> expand_more </span>
-    </div>
   </div>
 </template>
 
 <script></script>
 
 <style scoped>
+.container {
+  margin-top: 25%;
+}
+
 #name {
   display: flex;
   justify-content: center;

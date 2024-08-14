@@ -13,6 +13,7 @@
         v-for="project in projects"
         v-bind:key="project.id"
         v-bind:project="project"
+        v-show="project.selected"
       />
     </div>
   </div>
@@ -41,7 +42,7 @@ h3 {
   color: white;
 }
 .container {
-  background-color: rgb(165, 165, 245);
+  background-color: rgb(187, 187, 250);
   padding: 15px;
   padding-top: 5px;
   border-radius: 50px;
