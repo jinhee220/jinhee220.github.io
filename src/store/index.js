@@ -1,4 +1,5 @@
 import { createStore as _createStore } from "vuex";
+import VendingMachine from "../assets/VendingMachine.jpg";
 
 export function createStore() {
   return _createStore({
@@ -7,7 +8,7 @@ export function createStore() {
         {
           id: 1,
           title: "Vending Machine",
-          image: "/assets/VendingMachine.jpg",
+          image: VendingMachine,
           liveLink: "",
           githubLink: "",
           mainStacks: ["Java"],
