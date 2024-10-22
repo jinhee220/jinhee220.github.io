@@ -43,8 +43,7 @@ h3 {
 }
 .container {
   background-color: rgb(187, 187, 250);
-  padding: 15px;
-  padding-top: 5px;
+  padding: 5px 15px 0px 15px;
   border-radius: 50px;
 }
 .titles {
