@@ -48,7 +48,7 @@ img {
   height: 360px;
   color: white;
   border: white solid 3px;
-  z-index: 1;
+
   background-color: rgba(0, 0, 0, 0.8);
   overflow: auto;
   animation: fadeIn 0.7s;

@@ -46,7 +46,7 @@ img {
   height: 50px;
   object-fit: cover;
   border-radius: 20%;
-  padding-right: 7px;
+  margin-right: 7px;
 }
 .contact {
   display: flex;
