@@ -2,7 +2,11 @@
   <div class="container">
     <h3>Contact Me</h3>
     <div class="contact">
-      <a href="https://www.linkedin.com/in/joanne-lee-dev/">
+      <a
+        href="https://www.linkedin.com/in/joanne-lee-dev/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img
           class="linkedin"
           src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg"
@@ -18,7 +22,8 @@
       </a>
       <a
         href="https://docs.google.com/document/d/1KzgmojyHoufs7x6eSrg80v5KtKyG2FuctJ8HSCS-0Ec/edit?usp=sharing"
-        download="Joanne_Lee_Resume"
+        target="_blank"
+        rel="noopener noreferrer"
       >
         <img
           class="resume"
@@ -33,6 +38,10 @@
 <script></script>
 
 <style scoped>
+.container {
+  width: 100vw;
+}
+
 h3 {
   font-size: 2rem;
   text-align: left;

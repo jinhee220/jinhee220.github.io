@@ -1,18 +1,18 @@
 <template>
-  <div>
+  <div id="main">
     <!-- <nav-bar class="nav" /> -->
     <div class="bar center nav">
       <a href="#about"><img class="navImg" src="./assets/profile.jpg" /></a>
       <a href="#projects"><img class="navImg" src="./assets/bulb.jpg" /></a>
-      <a href="#toolkit"><img class="navImg" src="./assets/gear.png" /></a>
-      <a href="#contact"><img class="navImg" src="./assets/phone.png" /></a>
+      <a href="#toolbar"><img class="navImg" src="./assets/gear.png" /></a>
+      <a href="#contacts"><img class="navImg" src="./assets/phone.png" /></a>
     </div>
     <about-me id="about" class="comp" />
     <page-spacer />
     <technical-projects class="comp" id="projects" />
     <page-spacer />
-    <toolkit class="comp" id="toolkit" />
-    <contact class="footer" id="contact" />
+    <toolkit class="comp" id="toolbar" />
+    <contact class="footer" id="contacts" />
   </div>
 </template>
 
@@ -37,6 +37,10 @@ export default {
 </script>
 
 <style>
+#main {
+  overflow: hidden;
+}
+
 .nav {
   position: fixed;
   top: 0;
@@ -48,14 +52,16 @@ export default {
   scroll-behavior: smooth;
 }
 .comp {
-  margin-top: 20%;
+  margin-top: 20rem;
+  margin-bottom: 15rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 .footer {
-  margin-top: 30%;
-  position: absolute;
-  left: 0;
+  margin-top: 40rem;
+  margin-left: 0;
+  margin-right: 0;
   background-color: rgb(255, 216, 109);
-  width: 100%;
   padding-bottom: 50px;
   margin-bottom: 0;
 }
@@ -65,7 +71,7 @@ export default {
 #toolbar,
 #contacts {
   scroll-behavior: smooth;
-  scroll-margin-block: 10rem;
+  scroll-margin-block: 20rem;
 }
 
 /* NAV CSS */

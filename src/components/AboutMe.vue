@@ -25,7 +25,7 @@
 
 <style scoped>
 .container {
-  margin-top: 25%;
+  /* margin-top: 25%; */
 }
 
 #name {
@@ -72,11 +72,13 @@
 
 /* imports */
 
+/*
 .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
   color: rgb(62, 184, 184);
   margin-top: 175px;
-  /* margin-bottom: 10px; */
+  /* margin-bottom: 10px; 
   font-size: 50px;
-}
+} 
+*/
 </style>
