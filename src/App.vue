@@ -38,7 +38,8 @@ export default {
 
 <style>
 #main {
-  overflow: hidden;
+  overflow-x: hidden;
+  width: 100vw;
 }
 
 .nav {
@@ -52,6 +53,8 @@ export default {
   scroll-behavior: smooth;
 }
 .comp {
+  width: 65%;
+  margin: auto;
   margin-top: 20rem;
   margin-bottom: 15rem;
   padding-left: 3rem;
@@ -93,10 +96,5 @@ export default {
   margin-left: 5px;
   margin-right: 5px;
   border: solid rgb(190, 157, 138) 3px;
-}
-@media (hover: hover) {
-  .navImg:hover {
-    box-shadow: 3px 3px 3px rgb(112, 91, 141);
-  }
 }
 </style>

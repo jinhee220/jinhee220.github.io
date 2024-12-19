@@ -30,6 +30,7 @@ export default {
   width: 750px;
   height: 450px;
   overflow: auto;
+  margin: auto;
 }
 
 img {
@@ -71,5 +72,11 @@ img {
   left: 0;
   right: 0;
   bottom: 0px;
+}
+@media (hover: hover) {
+  .details:hover {
+    box-shadow: 3px 3px 3px rgb(112, 91, 141);
+    margin: auto;
+  }
 }
 </style>
