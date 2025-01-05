@@ -13,13 +13,20 @@
         />
         <p>LinkedIn</p>
       </a>
-      <a href="mailto: jinhee.lee220@gmail.com">
+      <a>
         <img
           class="email"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS3yUvTvUZqfntI29S6J4FRMP0AjKqEG50rQ&s"
         />
-        <p>Email</p>
+        <p>jinhee.lee220@gmail.com</p>
       </a>
+      <!-- <p class="email-text">
+        <img
+          class="email"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS3yUvTvUZqfntI29S6J4FRMP0AjKqEG50rQ&s"
+        />
+        jinhee.lee220@gmail.com
+      </p> -->
       <a
         href="https://docs.google.com/document/d/1KzgmojyHoufs7x6eSrg80v5KtKyG2FuctJ8HSCS-0Ec/edit?usp=sharing"
         target="_blank"
@@ -57,9 +64,17 @@ img {
   border-radius: 20%;
   margin-right: 7px;
 }
+
 .contact {
   display: flex;
   justify-content: space-evenly;
+}
+
+.email-text {
+  display: flex;
+  text-align: center;
+  margin: 0;
+  align-items: center;
 }
 
 a {

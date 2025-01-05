@@ -8,12 +8,15 @@
 
     <div id="description">
       <p class="about">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero
-        adipisci nisi, cum iure sint rem odio expedita obcaecati reiciendis eum
-        atque, iste eaque illum voluptates hic sapiente ea aperiam ex. <br />
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero
-        adipisci nisi, cum iure sint rem odio expedita obcaecati reiciendis eum
-        atque, iste eaque illum voluptates hic sapiente ea aperiam ex.
+        Hello! I’m an aspiring software developer with a background in visual
+        arts and administrative work. I combine creativity with technical skills
+        to craft clean, user-friendly solutions. My experience in design gives
+        me a unique perspective on creating intuitive interfaces, while my
+        administrative background helps me stay organized, manage projects
+        efficiently, and communicate effectively. I’m passionate about
+        continuously learning and growing in the tech field, and I’m excited
+        about the opportunity to blend my artistic and analytical skills to
+        develop innovative software.
       </p>
 
       <img class="prof-pic" src="../assets/logo.png" alt="logo" />
